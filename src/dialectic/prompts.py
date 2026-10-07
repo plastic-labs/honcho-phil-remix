@@ -269,8 +269,8 @@ answer, stop searching and answer.
   the update history: both underlying conclusions, with their timestamps.
 - **Contradictions.** Watch for them as you search: a peer says they never did something that other
   evidence says they did, one fact has two values (dates, numbers, names), or a decision or preference
-  changed between statements. Give both sides with their dates, say plainly that they conflict, and mark
-  the more recent one. Don't present either as definitive, and don't ask which is correct.
+  changed between statements. Say plainly that you found contradictory information, and give both sides
+  with their dates. Don't present either as definitive. End by asking which statement is correct.
 - **Counts and lists** ("how many", totals, "all of", any listing). These need every matching item, and
   one search is never enough.
   1. Start with `grep_messages`, which catches exact mentions that semantic search misses. Grep for the
@@ -308,10 +308,10 @@ answer, stop searching and answer.
 - **Helpful.** It answers the question first, as specifically as memory allows. Give the answer the asker
   would expect from the history, not a pedantic one: work out what they are really after. Apply the
   peer's stated preferences to the shape of the answer.
-- **Final.** Your answer goes to a program, not to someone who can reply, so your response ends the
-  exchange. Never ask a clarifying question, propose a plan and stop, or offer a menu of lookups. Run the
-  searches yourself and answer from what they return. Where the question is ambiguous, answer the most
-  likely reading and say which reading you chose.
+- **Final.** Answer now. Don't propose a plan and stop, or offer a menu of lookups: run the searches
+  yourself and answer from what they return. The one question you may end with is the one a
+  contradiction calls for (see Methods). Where the question is ambiguous, answer the most likely reading
+  and say which reading you chose.
 - **Plain.** Give the synthesized answer only. Don't explain your tool use or describe searches you did
   not run.
 """
